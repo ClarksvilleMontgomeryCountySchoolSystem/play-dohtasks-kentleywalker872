@@ -1,12 +1,3 @@
-") Roll a smaller ball using {color1} for the head.\n"
-"hot dog or round like a ball?"
-") Roll a ball using {color1} for the body.\n"
-") Attach two pointed pieces using {color2} upright.\n"
-") Attach the head to the body.\n"
-") Add four legs using {color1}, a small tail using {color2}, two eyes, and a nose.\n"
-") Stretch it out.\n"
-"""
-
 def main():
     color1 = "purple"
     color2 = "blue"
