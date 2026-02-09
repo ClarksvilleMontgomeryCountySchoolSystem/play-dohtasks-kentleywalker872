@@ -1,15 +1,17 @@
 def main():
     color1 = "blue"
-    color2 = "pink"
+    color2 = "white"
     print(f"1) Use {color2} to roll a ball.")
-    choice1 = input("1, 2, or 3")
+    # Collect input. Use choice1 Prompt:"1, 2, or 3? "
+    choice1 = input("1, 2, or 3? ")
     if choice1 == "1":
         print("2) Make the ball flat.\n")
     elif choice1 == "2": # elif is a second check only if the first check fails.
         print("2) Form the ball into an egg shape.\n")
     else: # else runs if all previous checks fail.
-        print("2) keep it round.")
+        print("2) Keep it round.")
     print(f"3) Use {color2} to roll two thin ropes.")
+    # Collect input. Use choice2 Prompt:"A or B? "
     choice2 = input("A or B? ")
     # Use == to check the User's choice.
     # Use the correct string.
